@@ -34,7 +34,7 @@ namespace MeuSiteEmMVC.Repositorio
         {
             ContatoModel contatoDB = ListarPorId(contato.Id);
 
-            if (contatoDB != null) throw new System.Exception("Houve um erro na atualização do contato");
+            if (contatoDB == null) throw new System.Exception("Houve um erro na atualização do contato");
 
             contatoDB.Nome = contato.Nome;
             contatoDB.Email = contato.Email;
@@ -44,6 +44,18 @@ namespace MeuSiteEmMVC.Repositorio
             _context.SaveChanges();
                 
             return contatoDB;
+        }
+
+        public bool Apagar(int id)
+        {
+            ContatoModel contatoDB = ListarPorId(id);
+
+            if (contatoDB == null) throw new System.Exception("Houve um erro na deleção do contato");
+
+            _context.Remove(contatoDB);
+            _context.SaveChanges();
+            
+            return true;
         }
     }
 }
