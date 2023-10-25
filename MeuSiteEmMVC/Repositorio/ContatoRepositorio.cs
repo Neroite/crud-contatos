@@ -52,7 +52,7 @@ namespace MeuSiteEmMVC.Repositorio
 
             if (contatoDB == null) throw new System.Exception("Houve um erro na deleção do contato");
 
-            _context.Remove(contatoDB);
+            _context.Contatos.Remove(contatoDB);
             _context.SaveChanges();
             
             return true;
