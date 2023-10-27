@@ -20,7 +20,7 @@ namespace MeuSiteEmMVC.Controllers
         }
 
         public IActionResult Criar()
-        {   
+        {
             return View();
         }
 
@@ -32,21 +32,21 @@ namespace MeuSiteEmMVC.Controllers
                 if (ModelState.IsValid)
                 {
                     _contatoRepositorio.Adicionar(contato);
-                    TempData["MensagemSucesso"] = "Contato cadastrado com sucesso";
+                    TempData["MensagemSucesso"] = "Contato criado com sucesso";
                     return RedirectToAction("Index");
                 }
 
-                return View(contato);
+                return View("Criar");
             }
             catch (SystemException erro)
             {
-                TempData["MensagemErro"] = $"Ops, não conseguimos cadastrar seu contato, tente novamente, detalhe do erro: {erro.Message}";
+                TempData["MensagemErro"] = $"Ops, não conseguimos criar seu contato, tente novamente, detalhe do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
 
         public IActionResult Editar(int id)
-        {   
+        {
             ContatoModel contato = _contatoRepositorio.ListarPorId(id);
             return View(contato);
         }
@@ -63,16 +63,13 @@ namespace MeuSiteEmMVC.Controllers
                 }
                 else
                 {
-                    {
-                        TempData["MensagemSucesso"] = "Ops não conseguimos apagar o seu contato!";
-
-                    }
+                    TempData["MensagemSucesso"] = "Ops não conseguimos apagar o seu contato!";
                 }
                 return RedirectToAction("Index");
             }
             catch (SystemException erro)
             {
-                TempData["MensagemSucesso"] = $"Ops não conseguimos apagar o seu contato!, mais detalhes do erro: {erro.Message}";
+                TempData["MensagemErro"] = $"Ops não conseguimos apagar o seu contato!, mais detalhes do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
