@@ -11,9 +11,11 @@ builder.Services.AddDbContext<BancoContext>(options =>
     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DataBase")),
     builder => builder.MigrationsAssembly("MeuSiteEmMVC")));
 
-builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
-
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+
 
 var app = builder.Build();
 
