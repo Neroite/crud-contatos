@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MeuSiteEmMVC.Migrations
 {
     [DbContext(typeof(BancoContext))]
-    [Migration("20231028003714_CriacaoTabelaUsuario")]
+    [Migration("20231028014813_CriacaoTabelaUsuario")]
     partial class CriacaoTabelaUsuario
     {
         /// <inheritdoc />

@@ -6,14 +6,15 @@
 <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Usuario" asp-action="Criar">Adicionar novo usuário</a>
+        <a class="btn btn-primary" asp-controller="Usuario" asp-action="Criar" role="button">Adicionar novo usuário</a>
     </div>
-    <br>
+
+    <br />
 
     @if (TempData["MensagemSucesso"] != null)
     {
         <div class="alert alert-success" role="alert">
-            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
             @TempData["MensagemSucesso"]
         </div>
     }
@@ -21,26 +22,24 @@
     @if (TempData["MensagemErro"] != null)
     {
         <div class="alert alert-danger" role="alert">
-            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            <button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" aria-label="Close">X</button>
             @TempData["MensagemErro"]
         </div>
-
     }
 
-    <br>
+    <br />
 
-    <h1 class="display-4">Listagem de Usuario</h1>
-    <br><br>
+    <h1 class="display-4">Listagem de usuários</h1>
 
     <table id="table-usuarios" class="display" style="width:100%">
         <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Login</th>
-                <th scope="col">Email</th>
-                <th scope="col">Data de cadastro</th>
-                <th scope="col"></th>
+                <th style="text-align:center" scope="col">#</th>
+                <th style="text-align:center" scope="col">Nome</th>
+                <th style="text-align:center" scope="col">Login</th>
+                <th style="text-align:center" scope="col">Email</th>
+                <th style="text-align:center" scope="col">Data de cadastro</th>
+                <th style="text-align:center" scope="col"></th>
             </tr>
         </thead>
         <tbody>
@@ -49,7 +48,7 @@
                 foreach (var usuario in Model)
                 {
                     <tr>
-                        <td scope="row">@usuario.Id</td>
+                        <th scope="row">@usuario.Id</th>
                         <td>@usuario.Nome</td>
                         <td>@usuario.Login</td>
                         <td>@usuario.Email</td>
@@ -62,10 +61,6 @@
                         </td>
                     </tr>
                 }
-            }
-            else
-            {
-                <tr class="odd"><td valign="top" colspan="5">Nenhum usuário encontrado</td></tr>
             }
         </tbody>
     </table>

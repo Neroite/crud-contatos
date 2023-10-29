@@ -36,7 +36,7 @@ namespace MeuSiteEmMVC.Controllers
                     return RedirectToAction("Index");
                 }
 
-                return View("Criar");
+                return View(contato);
             }
             catch (SystemException erro)
             {
@@ -88,7 +88,7 @@ namespace MeuSiteEmMVC.Controllers
                 if (ModelState.IsValid)
                 {
                     _contatoRepositorio.Atualizar(contato);
-                    TempData["MensagemSucesso"] = "Contato Alterado com sucesso";
+                    TempData["MensagemSucesso"] = "Contato Alterado com sucesso!";
                     return RedirectToAction("Index");
                 }
 
