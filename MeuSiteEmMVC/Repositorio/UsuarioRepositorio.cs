@@ -12,6 +12,10 @@ namespace MeuSiteEmMVC.Repositorio
         {
             _context = context;
         }
+        public UsuarioModel BuscarPorLogin(string login)
+        {
+            return _context.Usuarios.FirstOrDefault(x => x.Login.ToUpper() == login.ToLower());
+        }
 
         public UsuarioModel ListarPorId(int id)
         {
