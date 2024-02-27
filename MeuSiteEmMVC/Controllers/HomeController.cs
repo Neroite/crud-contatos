@@ -1,9 +1,11 @@
-﻿using MeuSiteEmMVC.Models;
+﻿using MeuSiteEmMVC.Filters;
+using MeuSiteEmMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace MeuSiteEmMVC.Controllers
 {
+    [PaginaParaUsuarioLogado]
     public class HomeController : Controller
     {
 
