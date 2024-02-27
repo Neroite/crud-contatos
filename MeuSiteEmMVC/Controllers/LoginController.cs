@@ -1,4 +1,5 @@
 ﻿using MeuSiteEmMVC.Data;
+using MeuSiteEmMVC.Helper;
 using MeuSiteEmMVC.Models;
 using MeuSiteEmMVC.Repositorio;
 using Microsoft.AspNetCore.Mvc;
@@ -9,15 +10,28 @@ namespace MeuSiteEmMVC.Controllers
     {
 
         private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly ISessao _sessao;
 
-        public LoginController(IUsuarioRepositorio usuarioRepositorio)
+        public LoginController(IUsuarioRepositorio usuarioRepositorio, ISessao sessao)
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _sessao = sessao;   
         }
 
         public IActionResult Index()
         {
+            // Se o usuário estiver logado, redirecionar para a home 
+
+            if(_sessao.BuscarSessaoUsuario() != null) return RedirectToAction("Index", "Home");
+
             return View();
+        }
+
+        public IActionResult Sair()
+        {
+            _sessao.RemoverSessaoUssuario();
+
+            return RedirectToAction("Index", "Login");
         }
 
         [HttpPost]
@@ -34,10 +48,12 @@ namespace MeuSiteEmMVC.Controllers
                     {
                         if (usuario.SenhaValida(loginModel.Senha))
                         {
+                            _sessao.CriarSessaoDoUsuario(usuario);
                             return RedirectToAction("Index", "Home");
                         }
 
                         TempData["MensagemErro"] = $"Senha do usuário é inválida, tente novamente.";
+                        return View("Index");
 
                     }
 

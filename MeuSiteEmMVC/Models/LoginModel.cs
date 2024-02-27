@@ -4,10 +4,10 @@ namespace MeuSiteEmMVC.Models
 {
     public class LoginModel
     {
-        [Required(ErrorMessage = "Digite o login")]
+        [Required(ErrorMessage = "Informe o login")]
         public string Login { get; set; }
 
-        [Required(ErrorMessage = "Digite a senha")]
+        [Required(ErrorMessage = "Informe a senha")]
         public string Senha {  get; set; }
     }
 }
