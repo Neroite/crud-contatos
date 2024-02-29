@@ -15,15 +15,20 @@ namespace MeuSiteEmMVC.Controllers
         public LoginController(IUsuarioRepositorio usuarioRepositorio, ISessao sessao)
         {
             _usuarioRepositorio = usuarioRepositorio;
-            _sessao = sessao;   
+            _sessao = sessao;
         }
 
         public IActionResult Index()
         {
             // Se o usuário estiver logado, redirecionar para a home 
 
-            if(_sessao.BuscarSessaoUsuario() != null) return RedirectToAction("Index", "Home");
+            if (_sessao.BuscarSessaoUsuario() != null) return RedirectToAction("Index", "Home");
 
+            return View();
+        }
+
+        public IActionResult RedefinirSenha()
+        {
             return View();
         }
 
@@ -66,6 +71,37 @@ namespace MeuSiteEmMVC.Controllers
             catch (SystemException erro)
             {
                 TempData["MensagemErro"] = $"Ops, não conseguimos realizer seu login, tente novamente, detalhe do erro: {erro.Message}";
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult EnviarLinkPararRedefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    UsuarioModel usuario = _usuarioRepositorio.BuscarPorEmailElogin(redefinirSenhaModel.Email, redefinirSenhaModel.Login);
+
+                    if (usuario != null)
+                    {
+                        string novaSenha = usuario.GerarNovaSenha();
+
+                        TempData["MensagemSucesso"] = $"Uma nova senha foi enviada para seu e-mail.";
+                        return RedirectToAction("Index", "Login");
+
+                    }
+
+                    TempData["MensagemErro"] = $"Não conseguimos redefini sua senha. Por favor, verifique os dados informados.";
+                    return RedirectToAction("RedefinirSenha");
+                }
+
+                return View("RedefinirSenha");
+            }
+            catch (SystemException erro)
+            {
+                TempData["MensagemErro"] = $"Ops, não conseguimos redefinir sua senha, tente novamente, detalhe do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
