@@ -28,13 +28,18 @@ namespace MeuSiteEmMVC.Models
         public DateTime? DataAtualizacao { get; set; }
 
         public bool SenhaValida(string senha)
-        {
+        {   
             return Senha == senha.GerarHash();
         }
 
         public void SetSenhaHash()
         {
             Senha = Senha.GerarHash();
+        }
+
+        public void SetNovaSenha(string novaSenha)
+        {
+            Senha = novaSenha.GerarHash();
         }
 
         public string GerarNovaSenha()

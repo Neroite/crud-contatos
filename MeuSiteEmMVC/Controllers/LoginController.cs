@@ -59,13 +59,11 @@ namespace MeuSiteEmMVC.Controllers
                             return RedirectToAction("Index", "Home");
                         }
 
-                        TempData["MensagemErro"] = $"Senha do usuário é inválida, tente novamente.";
+                        TempData["MensagemErro"] = $"Senha do usuário é inválida.";
                         return View("Index");
 
                     }
-
-
-                    TempData["MensagemErro"] = $"Usuário e/ou senha inválido(s). Por favor, tente novamente.";
+                    TempData["MensagemErro"] = $"Usuário e/ou senha inválido(s).";
                 }
 
                 return View("Index");

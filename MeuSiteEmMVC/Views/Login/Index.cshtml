@@ -1,7 +1,7 @@
 ﻿@model LoginModel
 @{
     Layout = "_LayoutDeslogado";
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Tela de Login";
 }
 
 @if (TempData["MensagemErro"] != null)
@@ -37,7 +37,7 @@
                             </div>
                             <div class="form-outline form-white mb-4">
                                 <h2 class="fw-bold mb-2 text-uppercase">Senha</h2>
-                                <input type="text" asp-for="Senha" type="password" id="typePasswordX" class="form-control form-control-lg" />
+                                <input type="password" asp-for="Senha" id="typePasswordX" class="form-control form-control-lg" />
                                 @Html.ValidationMessageFor(x => x.Senha)
                                 <br>
                             </div>
@@ -46,10 +46,7 @@
                         </div>
                         <div>
                             <p class="mb-0">
-                                Usuario-Administrador: Admin, senha:123456
-                            </p>
-                            <p>
-                                Usuario-Padrao: fernando, senha:1234567
+                                Usuario-Administrador: Admin, senha:12345
                             </p>
                         </div>
                     </div>
