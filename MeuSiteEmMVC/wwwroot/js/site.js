@@ -6,7 +6,22 @@
 $(document).ready(function () {
     getDatatable('#table-contatos');
     getDatatable('#table-usuarios');
+
+    $('.btn-total-contatos').click(function () {
+        var usuarioId = $(this).attr('usuario-id');
+
+        $.ajax({
+            type: 'GET',
+            url: '/Usuario/ListarContatosPorUsuarioId/' + usuarioId,
+            success: function (result) {
+                $('#listaContatosUsuario').html(result);
+                getDatatable('#table-contatos-usuario');
+                $('#modalContatosUsuario').modal('show');
+            }
+        });
+    });
 })
+
 
 function getDatatable(id) {
     $(id).DataTable({

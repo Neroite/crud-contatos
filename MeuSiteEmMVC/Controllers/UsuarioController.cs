@@ -9,10 +9,12 @@ namespace MeuSiteEmMVC.Controllers
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly IContatoRepositorio _contatoRepositorio;
 
-        public UsuarioController(IUsuarioRepositorio usuarioRepositorio)
+        public UsuarioController(IUsuarioRepositorio usuarioRepositorio, IContatoRepositorio contatoRepositorio)
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _contatoRepositorio = contatoRepositorio;
         }
         public IActionResult Index()
         {
@@ -33,7 +35,7 @@ namespace MeuSiteEmMVC.Controllers
                 if (ModelState.IsValid)
                 {
                     _usuarioRepositorio.Adicionar(usuario);
-                    TempData["MensagemSucesso"] = "Usuario criado com sucesso";
+                    TempData["MensagemSucesso"] = "Usuário criado com sucesso";
                     return RedirectToAction("Index");
                 }
 
@@ -41,7 +43,7 @@ namespace MeuSiteEmMVC.Controllers
             }
             catch (SystemException erro)
             {
-                TempData["MensagemErro"] = $"Ops, não conseguimos criar seu Usuario, tente novamente, detalhe do erro: {erro.Message}";
+                TempData["MensagemErro"] = $"Ops, não conseguimos criar seu usuário, tente novamente, detalhe do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
@@ -71,7 +73,7 @@ namespace MeuSiteEmMVC.Controllers
                     };
 
                     usuario = _usuarioRepositorio.Atualizar(usuario);
-                    TempData["MensagemSucesso"] = "Usuario alterado com sucesso!";
+                    TempData["MensagemSucesso"] = "Usuário alterado com sucesso!";
                     return RedirectToAction("Index");
                 }
 
@@ -112,8 +114,12 @@ namespace MeuSiteEmMVC.Controllers
                 TempData["MensagemErro"] = $"Ops não conseguimos apagar o seu usuário!, mais detalhes do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
+        }
 
-
+        public IActionResult ListarContatosPorUsuarioId(int id)
+        {
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos(id);
+            return PartialView("_ContatosUsuario", contatos);
         }
     }
 }

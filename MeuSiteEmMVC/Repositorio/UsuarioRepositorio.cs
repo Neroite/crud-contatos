@@ -1,5 +1,6 @@
 ﻿using MeuSiteEmMVC.Data;
 using MeuSiteEmMVC.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MeuSiteEmMVC.Repositorio
 {
@@ -29,7 +30,9 @@ namespace MeuSiteEmMVC.Repositorio
 
         public List<UsuarioModel> BuscarTodos()
         {
-            return _context.Usuarios.ToList();
+            return _context.Usuarios
+                .Include(x => x.Contatos)
+                .ToList();
         }
 
         public UsuarioModel Adicionar(UsuarioModel usuario)

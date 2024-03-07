@@ -22,7 +22,7 @@ namespace MeuSiteEmMVC.Helper
                 string senha = _configuration.GetValue<string>("SMTP:Senha");
                 int porta = _configuration.GetValue<int>("SMTP:Porta");
 
-                MailMessage mail = new MailMessage()
+                MailMessage mail = new()
                 {
                     From = new MailAddress(username, nome)
                 };
@@ -42,7 +42,7 @@ namespace MeuSiteEmMVC.Helper
                     return true;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
