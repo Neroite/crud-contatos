@@ -16,18 +16,20 @@ namespace Lopobia.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            return View(contatos);
         }
         public IActionResult Adicionar()
         {
             return View();
         }
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
-            return View();
+            ContatoModel contatos = _contatoRepositorio.BuscarPorId(id);
+            return View(contatos);
         }
 
-        public IActionResult ConfirmarApagar()
+        public IActionResult ConfirmarApagar(int id)
         {
             return View();
         }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "G:\\source\\repos\\Lopobia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\views\\contato\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\views\\contato\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\views\\contato\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\views\\contato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +34,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Adicionar.cshtml",
               "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Adicionar.cshtml",
               "RelativeDocumentMoniker": "Lopobia\\Views\\Contato\\Adicionar.cshtml",
               "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Adicionar.cshtml",
               "RelativeToolTip": "Lopobia\\Views\\Contato\\Adicionar.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T01:18:16.074Z",
+              "WhenOpened": "2025-04-30T02:03:32.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Lopobia\\Views\\Contato\\Editar.cshtml",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Editar.cshtml",
+              "RelativeToolTip": "Lopobia\\Views\\Contato\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T02:03:25.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lopobia\\Views\\Contato\\Index.cshtml",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Contato\\Index.cshtml",
+              "RelativeToolTip": "Lopobia\\Views\\Contato\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T01:33:27.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Program.cs",
-              "RelativeDocumentMoniker": "Lopobia\\Program.cs",
-              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Program.cs",
-              "RelativeToolTip": "Lopobia\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:11:52.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ContatoController.cs",
               "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Controllers\\ContatoController.cs",
               "RelativeDocumentMoniker": "Lopobia\\Controllers\\ContatoController.cs",
               "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Controllers\\ContatoController.cs",
               "RelativeToolTip": "Lopobia\\Controllers\\ContatoController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wBYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:59:21.976Z",
+              "WhenOpened": "2025-04-30T01:32:39.948Z",
               "EditorCaption": ""
             },
             {
@@ -87,9 +96,9 @@
               "RelativeDocumentMoniker": "Lopobia\\Repositorio\\ContatoRepositorio.cs",
               "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Repositorio\\ContatoRepositorio.cs",
               "RelativeToolTip": "Lopobia\\Repositorio\\ContatoRepositorio.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:54:58.567Z",
+              "WhenOpened": "2025-04-30T01:31:49.394Z",
               "EditorCaption": ""
             },
             {
@@ -100,35 +109,9 @@
               "RelativeDocumentMoniker": "Lopobia\\Repositorio\\IContatoRepositorio.cs",
               "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Repositorio\\IContatoRepositorio.cs",
               "RelativeToolTip": "Lopobia\\Repositorio\\IContatoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:53:58.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BancoContext.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Data\\BancoContext.cs",
-              "RelativeDocumentMoniker": "Lopobia\\Data\\BancoContext.cs",
-              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Data\\BancoContext.cs",
-              "RelativeToolTip": "Lopobia\\Data\\BancoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:20:32.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContatoModel.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Models\\ContatoModel.cs",
-              "RelativeDocumentMoniker": "Lopobia\\Models\\ContatoModel.cs",
-              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Models\\ContatoModel.cs",
-              "RelativeToolTip": "Lopobia\\Models\\ContatoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:18:01.426Z",
+              "WhenOpened": "2025-04-30T01:31:32.964Z",
               "EditorCaption": ""
             }
           ]
