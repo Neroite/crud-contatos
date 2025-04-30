@@ -1,0 +1,21 @@
+﻿@{
+	ViewData["Title"] = "Apagar Contato";
+}
+
+<div>
+	<br>
+	<br>
+	<h1 class="text-center">
+		Deseja realmente apagar o contato(Model.Nome)
+	</h1>
+
+	<br>
+	<br>
+
+	<form>
+		<div class="d-grid gap-2">
+			<button class="btn btn-outline-danger" type="submit">Apagar </button>
+			<a asp-controller="Contato" asp-action="Index" type="button" class="btn btn-outline-secondary" type="button">Voltar</a>
+		</div>
+	</form>
+</div>
