@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "G:\\source\\repos\\Lopobia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\source\\repos\\Lopobia\\Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|g:\\source\\repos\\lopobia\\lopobia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83325308-577B-4C5B-B79C-C08CDD29AC94}|Lopobia\\Lopobia.csproj|solutionrelative:lopobia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lopobia\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lopobia\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T00:35:00.877Z",
+              "Title": "20250430004722_CriandoMigracao.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs",
+              "RelativeDocumentMoniker": "Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs",
+              "RelativeToolTip": "Lopobia\\Migrations\\20250430004722_CriandoMigracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T00:47:23.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContatoController.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Controllers\\ContatoController.cs",
-              "RelativeDocumentMoniker": "Lopobia\\Controllers\\ContatoController.cs",
-              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Controllers\\ContatoController.cs*",
-              "RelativeToolTip": "Lopobia\\Controllers\\ContatoController.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Program.cs",
+              "RelativeDocumentMoniker": "Lopobia\\Program.cs",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Program.cs",
+              "RelativeToolTip": "Lopobia\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:33:50.869Z",
+              "WhenOpened": "2025-04-30T00:46:20.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\appsettings.json",
+              "RelativeDocumentMoniker": "Lopobia\\appsettings.json",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\appsettings.json",
+              "RelativeToolTip": "Lopobia\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T00:45:41.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BancoContext.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Data\\BancoContext.cs",
+              "RelativeDocumentMoniker": "Lopobia\\Data\\BancoContext.cs",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Data\\BancoContext.cs",
+              "RelativeToolTip": "Lopobia\\Data\\BancoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T00:44:07.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContatoModel.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Models\\ContatoModel.cs",
+              "RelativeDocumentMoniker": "Lopobia\\Models\\ContatoModel.cs",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Models\\ContatoModel.cs",
+              "RelativeToolTip": "Lopobia\\Models\\ContatoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T00:42:31.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lopobia\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\source\\repos\\Lopobia\\Lopobia\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Lopobia\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T00:39:22.958Z",
               "EditorCaption": ""
             }
           ]

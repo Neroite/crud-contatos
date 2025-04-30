@@ -1,4 +1,13 @@
+using Lopobia.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<BancoContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DataBase"),
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DataBase")),
+    builder => builder.MigrationsAssembly("Lopobia")));
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
