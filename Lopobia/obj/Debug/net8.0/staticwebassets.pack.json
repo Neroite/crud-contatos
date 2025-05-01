@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Lopobia.ep5didu5zu.bundle.scp.css"
     },
     {
+      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.css"
+    },
+    {
+      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.js"
+    },
+    {
+      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.css"
+    },
+    {
+      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.js"
+    },
+    {
       "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

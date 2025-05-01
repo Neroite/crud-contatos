@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6jbeqwEEabSofiNJW9HQPdimWRdsmHNjnvcn0JZcJZk=",
+  "Hash": "e/MxuVULjci5UpiDcZdLqnaEl1DPzGH0sVMj3sCT7Mc=",
   "Source": "Lopobia",
   "BasePath": "_content/Lopobia",
   "Mode": "Default",
@@ -73,11 +73,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cdmpgqwl0v",
-      "Integrity": "gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI=",
+      "Fingerprint": "5nkpf7pvj7",
+      "Integrity": "wW+uSeR2oNl+IMyOVClKCpOnAA5HbOF4MsLwjpH5CdI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.css",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "DataTables/datatables#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69hogbit4x",
+      "Integrity": "Wul0O4rXUdBd4BY4FuQTFzg8eIpVuF1PqHEuHkZEdpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DataTables\\datatables.css"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.js",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "DataTables/datatables#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "caddjzzsnt",
+      "Integrity": "hBOO5Ftw5Ap538Cph0KSRS+bdZT6X/ZBJ0zCxcyFPEI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DataTables\\datatables.js"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.css",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "DataTables/datatables.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iz8df79l1w",
+      "Integrity": "vikYTRlszKIqwJf5naFLXxygvFYHxvAR1bdBBgGJHVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DataTables\\datatables.min.css"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.js",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "DataTables/datatables.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4op9uhbb2w",
+      "Integrity": "zONOGnwZFcWCImZf4rFsr1HtCW3S8TynBGPZv51v8Wk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DataTables\\datatables.min.js"
     },
     {
       "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\favicon.ico",
@@ -115,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mghlwvnv79",
-      "Integrity": "pnfc72TmLtdqIDSX5G9rpNKZmAHPI+9OQCdb3FPH9kg=",
+      "Fingerprint": "e8c0jjsnyh",
+      "Integrity": "7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1321,7 +1405,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.cdmpgqwl0v.css",
+      "Route": "css/site.5nkpf7pvj7.css",
       "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1331,7 +1415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "517"
+          "Value": "513"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI=\""
+          "Value": "\"wW+uSeR2oNl+IMyOVClKCpOnAA5HbOF4MsLwjpH5CdI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:39:44 GMT"
+          "Value": "Thu, 01 May 2025 15:31:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1437,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cdmpgqwl0v"
+          "Value": "5nkpf7pvj7"
         },
         {
           "Name": "label",
@@ -1361,7 +1445,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI="
+          "Value": "sha256-wW+uSeR2oNl+IMyOVClKCpOnAA5HbOF4MsLwjpH5CdI="
         }
       ]
     },
@@ -1376,7 +1460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "517"
+          "Value": "513"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI=\""
+          "Value": "\"wW+uSeR2oNl+IMyOVClKCpOnAA5HbOF4MsLwjpH5CdI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:39:44 GMT"
+          "Value": "Thu, 01 May 2025 15:31:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1482,335 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI="
+          "Value": "sha256-wW+uSeR2oNl+IMyOVClKCpOnAA5HbOF4MsLwjpH5CdI="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.69hogbit4x.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wul0O4rXUdBd4BY4FuQTFzg8eIpVuF1PqHEuHkZEdpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69hogbit4x"
+        },
+        {
+          "Name": "label",
+          "Value": "DataTables/datatables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wul0O4rXUdBd4BY4FuQTFzg8eIpVuF1PqHEuHkZEdpg="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.caddjzzsnt.js",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hBOO5Ftw5Ap538Cph0KSRS+bdZT6X/ZBJ0zCxcyFPEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "caddjzzsnt"
+        },
+        {
+          "Name": "label",
+          "Value": "DataTables/datatables.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hBOO5Ftw5Ap538Cph0KSRS+bdZT6X/ZBJ0zCxcyFPEI="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wul0O4rXUdBd4BY4FuQTFzg8eIpVuF1PqHEuHkZEdpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wul0O4rXUdBd4BY4FuQTFzg8eIpVuF1PqHEuHkZEdpg="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.js",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hBOO5Ftw5Ap538Cph0KSRS+bdZT6X/ZBJ0zCxcyFPEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hBOO5Ftw5Ap538Cph0KSRS+bdZT6X/ZBJ0zCxcyFPEI="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.min.4op9uhbb2w.js",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zONOGnwZFcWCImZf4rFsr1HtCW3S8TynBGPZv51v8Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4op9uhbb2w"
+        },
+        {
+          "Name": "label",
+          "Value": "DataTables/datatables.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zONOGnwZFcWCImZf4rFsr1HtCW3S8TynBGPZv51v8Wk="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.min.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vikYTRlszKIqwJf5naFLXxygvFYHxvAR1bdBBgGJHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vikYTRlszKIqwJf5naFLXxygvFYHxvAR1bdBBgGJHVU="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.min.iz8df79l1w.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29390"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vikYTRlszKIqwJf5naFLXxygvFYHxvAR1bdBBgGJHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iz8df79l1w"
+        },
+        {
+          "Name": "label",
+          "Value": "DataTables/datatables.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vikYTRlszKIqwJf5naFLXxygvFYHxvAR1bdBBgGJHVU="
+        }
+      ]
+    },
+    {
+      "Route": "DataTables/datatables.min.js",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zONOGnwZFcWCImZf4rFsr1HtCW3S8TynBGPZv51v8Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 20:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zONOGnwZFcWCImZf4rFsr1HtCW3S8TynBGPZv51v8Wk="
         }
       ]
     },
@@ -1485,6 +1897,51 @@
       ]
     },
     {
+      "Route": "js/site.e8c0jjsnyh.js",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e8c0jjsnyh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1495,7 +1952,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "382"
+          "Value": "386"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1960,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pnfc72TmLtdqIDSX5G9rpNKZmAHPI+9OQCdb3FPH9kg=\""
+          "Value": "\"7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:47:24 GMT"
+          "Value": "Thu, 01 May 2025 15:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,52 +1974,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pnfc72TmLtdqIDSX5G9rpNKZmAHPI+9OQCdb3FPH9kg="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.mghlwvnv79.js",
-      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pnfc72TmLtdqIDSX5G9rpNKZmAHPI+9OQCdb3FPH9kg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:47:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mghlwvnv79"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pnfc72TmLtdqIDSX5G9rpNKZmAHPI+9OQCdb3FPH9kg="
+          "Value": "sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="
         }
       ]
     },
