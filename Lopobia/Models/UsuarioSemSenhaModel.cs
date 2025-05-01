@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Lopobia.Models
 {
-    public class UsuarioModel
+    public class UsuarioSemSenhaModel
     {
         public int Id { get; set; }
 
@@ -20,9 +20,5 @@ namespace Lopobia.Models
         [Required(ErrorMessage = "Selecione o perfil")]
         public PerfilEnum? Perfil { get; set; }
 
-        [Required(ErrorMessage = "Digite a senha do usuário")]
-        public string Senha { get; set; }
-        public DateTime DataCadastro { get; set; }
-        public DateTime? DataAtualizacao { get; set; }
     }
 }

@@ -66,13 +66,24 @@ namespace Lopobia.Controllers
         }
 
         [HttpPost]
-        public IActionResult Editar(UsuarioModel usuario)
+        public IActionResult Editar(UsuarioSemSenhaModel usuarioSemSenhaModel)
         {
 
             try
             {
+                UsuarioModel usuario = null;
+
                 if (ModelState.IsValid)
                 {
+                    usuario = new UsuarioModel()
+                    {
+                        Id = usuarioSemSenhaModel.Id,
+                        Nome = usuarioSemSenhaModel.Nome,
+                        Email = usuarioSemSenhaModel.Email,
+                        Login = usuarioSemSenhaModel.Login,
+                        Perfil = usuarioSemSenhaModel.Perfil
+                    };
+
                     TempData["MensagemSucesso"] = "usuario atualizado com sucesso!";
                     _usuarioRepositorio.Editar(usuario);
                     return RedirectToAction("Index");

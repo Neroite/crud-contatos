@@ -1,4 +1,5 @@
-﻿@model UsuarioModel
+﻿@using Lopobia.Enum
+@model UsuarioModel
 @{
 	ViewData["Title"] = "Editar Contato";
 }
@@ -25,9 +26,23 @@
 			@Html.ValidationMessageFor(x => x.Email)
 		</div>
 		<div class="mb-3">
-			<label for="Input3" class="form-label">Contato</label>
-			<input asp-for="Login" type="text" class="form-control" placeholder="135">
+			<label for="Input3" class="form-label">Login</label>
+			<input asp-for="Login" type="text" class="form-control" placeholder="Usuario1">
 			@Html.ValidationMessageFor(x => x.Login)
+		</div>
+		<div class="mb-3">
+			<label for="Input4" class="form-label">Perfil</label>
+			<select asp-for="Perfil" class="form-control">
+				<option value="">Selecione</option>
+				<option value="@PerfilEnum.Admin">Admin</option>
+				<option value="@PerfilEnum.Padrao">Padrao </option>
+			</select>
+			@Html.ValidationMessageFor(x => x.Perfil)
+		</div>
+		<div class="mb-3">
+			<label for="Input5" class="form-label">Senha</label>
+			<input asp-for="Senha" type="text" class="form-control" placeholder="123">
+			@Html.ValidationMessageFor(x => x.Senha)
 		</div>
 		<br>
 		<div class="d-grid gap-2">
