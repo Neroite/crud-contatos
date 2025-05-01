@@ -9,18 +9,21 @@
 		Cadastrar Contato
 	</h1>
 
-	<form asp-controller="Contato" asp-action="Criar" method="post">
+	<form asp-controller="Contato" asp-action="Adicionar" method="post">
 		<div class="mb-3">
 			<label for="Input1" class="form-label">Nome</label>
 			<input asp-for="Nome" type="text" class="form-control" placeholder="Koon Aguero">
+			@Html.ValidationMessageFor(x => x.Nome)
 		</div>
 		<div class="mb-3">
 			<label for="Input2" class="form-label">Email</label>
-			<input asp-for="Email" type="email" class="form-control" placeholder="name@example.com">
+			<input asp-for="Email" type="text" class="form-control" placeholder="name@example.com">
+			@Html.ValidationMessageFor(x => x.Email)
 		</div>
 		<div class="mb-3">
 			<label for="Input3" class="form-label">Contato</label>
 			<input asp-for="Celular" type="text" class="form-control" placeholder="135">
+			@Html.ValidationMessageFor(x => x.Celular)
 		</div>
 		<br>
 		<div class="d-grid gap-2">

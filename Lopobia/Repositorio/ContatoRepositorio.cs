@@ -29,7 +29,7 @@ namespace Lopobia.Repositorio
             return contato;
         }
 
-        public ContatoModel Atualizar(ContatoModel contato)
+        public ContatoModel Editar(ContatoModel contato)
         {
             ContatoModel contatoDB = BuscarPorId(contato.Id);
 

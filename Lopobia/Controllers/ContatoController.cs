@@ -36,17 +36,29 @@ namespace Lopobia.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(ContatoModel contato)
+        public IActionResult Adicionar(ContatoModel contato)
         {
-            _contatoRepositorio.Criar(contato);
-            return RedirectToAction("Index");
+
+            if (ModelState.IsValid)
+            {
+                _contatoRepositorio.Criar(contato);
+                return RedirectToAction("Index");
+            }
+
+            return View(contato);
         }
 
         [HttpPost]
-        public IActionResult Atualizar(ContatoModel contato)
+        public IActionResult Editar(ContatoModel contato)
         {
-            _contatoRepositorio.Atualizar(contato);
-            return RedirectToAction("Index");
+
+            if (ModelState.IsValid)
+            {
+                _contatoRepositorio.Editar(contato);
+                return RedirectToAction("Index");
+            }
+
+            return View(contato);
         }
 
         public IActionResult Apagar(int id)
