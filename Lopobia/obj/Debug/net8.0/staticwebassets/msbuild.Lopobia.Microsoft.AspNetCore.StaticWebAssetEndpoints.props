@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 01:45:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 02:09:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/css/site.r2kz99gog0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r2kz99gog0"},{"Name":"integrity","Value":"sha256-nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA="},{"Name":"label","Value":"_content/Lopobia/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 01:45:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 02:09:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

@@ -38,33 +38,74 @@ namespace Lopobia.Controllers
         [HttpPost]
         public IActionResult Adicionar(ContatoModel contato)
         {
-
-            if (ModelState.IsValid)
+            try
             {
-                _contatoRepositorio.Criar(contato);
+                if (ModelState.IsValid)
+                {
+                    TempData["MensagemSucesso"] = "Contato realizado com sucesso!";
+                    _contatoRepositorio.Criar(contato);
+                    return RedirectToAction("Index");
+                }
+
+                return View(contato);
+                // ou return View("Criar",contato); caso a view não tenha o mesmo nome que o método
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Ops, houve um erro na criação do contato. detalhes do erro: {erro}";
                 return RedirectToAction("Index");
             }
 
-            return View(contato);
         }
 
         [HttpPost]
         public IActionResult Editar(ContatoModel contato)
         {
 
-            if (ModelState.IsValid)
+            try
             {
-                _contatoRepositorio.Editar(contato);
+                if (ModelState.IsValid)
+                {
+                    TempData["MensagemSucesso"] = "Contato atualizado com sucesso!";
+                    _contatoRepositorio.Editar(contato);
+                    return RedirectToAction("Index");
+                }
+
+                return View(contato);
+            }
+
+            catch (Exception)
+            {
+                TempData["MensagemErro"] = $"Ops, houve um erro na edição do contato";
                 return RedirectToAction("Index");
             }
 
-            return View(contato);
         }
 
         public IActionResult Apagar(int id)
         {   
-            _contatoRepositorio.Apagar(id);
-            return RedirectToAction("Index");
+
+            try
+            {
+                bool apagado = _contatoRepositorio.Apagar(id);
+
+                if (apagado)
+                {
+                    TempData["MensagemSucesso"] = "Contato deletado com sucesso!";
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    TempData["MensagemErro"] = $"Não foi possível apagar o contato";
+                }
+
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                TempData["MensagemErro"] = $"Ops, houve um erro na deleção do contato";
+                return RedirectToAction("Index");
+            }
         }
     }
 }
