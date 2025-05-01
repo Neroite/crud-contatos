@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lopobia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+014d425a9b96724704acc66c2914e3c35ea84e13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7effb4498d4f3df37ae6d9c7aabbe67d9c550dd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lopobia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lopobia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

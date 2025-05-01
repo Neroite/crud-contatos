@@ -33,7 +33,7 @@ namespace Lopobia.Repositorio
         {
             ContatoModel contatoDB = BuscarPorId(contato.Id);
 
-            if(contatoDB is null) throw new Exception("O contato não foi encontrado");
+            if(contatoDB == null) throw new Exception("O contato não foi encontrado");
 
             contatoDB.Nome = contato.Nome;
             contatoDB.Email = contato.Email;
@@ -42,6 +42,17 @@ namespace Lopobia.Repositorio
             _bancoContext.Contatos.Update(contatoDB);
             _bancoContext.SaveChanges();
             return contatoDB;
+        }
+
+        public bool Apagar(int id)
+        {
+            ContatoModel contatoDB = BuscarPorId(id);
+
+            if (contatoDB == null) throw new Exception("O contato não foi encontrado");
+
+            _bancoContext.Contatos.Remove(contatoDB);
+            _bancoContext.SaveChanges();
+            return true;
         }
     }
 }

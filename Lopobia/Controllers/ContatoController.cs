@@ -31,7 +31,8 @@ namespace Lopobia.Controllers
 
         public IActionResult ConfirmarApagar(int id)
         {
-            return View();
+            ContatoModel contatos = _contatoRepositorio.BuscarPorId(id);
+            return View(contatos);
         }
 
         [HttpPost]
@@ -48,5 +49,10 @@ namespace Lopobia.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Apagar(int id)
+        {   
+            _contatoRepositorio.Apagar(id);
+            return RedirectToAction("Index");
+        }
     }
 }
