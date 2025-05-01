@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Lopobia/css/site.cdmpgqwl0v.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdmpgqwl0v"},{"Name":"integrity","Value":"sha256-gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI="},{"Name":"label","Value":"_content/Lopobia/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 14:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 02:09:53 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lopobia/css/site.r2kz99gog0.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r2kz99gog0"},{"Name":"integrity","Value":"sha256-nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA="},{"Name":"label","Value":"_content/Lopobia/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nUL50Pzbsvz6BsRVQowMBi1s/vPiePFgi9JWytrp4YA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 02:09:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gMo1pVM4i3aegRri/4H/ULPFe92KlM1ECcm/zUJQ/TI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 14:39:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 00:30:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pnfc72TmLtdqIDSX5G9rpNKZmAHPI\u002B9OQCdb3FPH9kg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"382"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pnfc72TmLtdqIDSX5G9rpNKZmAHPI\u002B9OQCdb3FPH9kg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 14:47:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.xtxxf3hu2r.js">
+    <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.mghlwvnv79.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/Lopobia/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 00:30:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mghlwvnv79"},{"Name":"integrity","Value":"sha256-pnfc72TmLtdqIDSX5G9rpNKZmAHPI\u002B9OQCdb3FPH9kg="},{"Name":"label","Value":"_content/Lopobia/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"382"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pnfc72TmLtdqIDSX5G9rpNKZmAHPI\u002B9OQCdb3FPH9kg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 14:47:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

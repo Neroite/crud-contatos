@@ -3,6 +3,11 @@
 
 // Write your JavaScript code.
 
+$(document).ready(function () {
+    $('#table-contato').DataTable();
+});
+
+
 $('.btn-close').click(function () {
     $('.alert').hide('hide');
 });
