@@ -40,5 +40,13 @@ namespace Lopobia.Controllers
             _contatoRepositorio.Criar(contato);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Atualizar(ContatoModel contato)
+        {
+            _contatoRepositorio.Atualizar(contato);
+            return RedirectToAction("Index");
+        }
+
     }
 }

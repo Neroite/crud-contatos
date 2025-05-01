@@ -7,5 +7,7 @@ namespace Lopobia.Repositorio
         ContatoModel Criar(ContatoModel contato);
         List<ContatoModel> BuscarTodos();
         ContatoModel BuscarPorId(int id);
+        ContatoModel Atualizar(ContatoModel contato);
+
     }
 }

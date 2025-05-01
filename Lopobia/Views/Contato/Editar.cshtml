@@ -10,7 +10,10 @@
 	</h1>
 	<br>
 
-	<form>
+	<form asp-action="Atualizar" asp-controller="Contato" method="post">
+
+		<input type="hidden" asp-for="Id">
+
 		<div class="mb-3">
 			<label for="Input1" class="form-label">Nome</label>
 			<input asp-for="Nome" type="text" class="form-control" placeholder="Koon Aguero">
@@ -29,5 +32,4 @@
 			<a type="button" class="btn btn-outline-dark" type="button" asp-controller="Contato" asp-action="Index">Voltar</a>
 		</div>
 	</form>
-</div>
 </div>
