@@ -72,17 +72,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 00:30:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.e8c0jjsnyh.js">
+    <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.0pw43d9y33.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e8c0jjsnyh"},{"Name":"integrity","Value":"sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="},{"Name":"label","Value":"_content/Lopobia/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"386"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:21:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0pw43d9y33"},{"Name":"integrity","Value":"sha256-fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U="},{"Name":"label","Value":"_content/Lopobia/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2682"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 17:29:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"386"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:21:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2682"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 17:29:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
@@ -389,6 +389,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"536547"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 00:30:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-yeti.0gii1zma10.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-yeti.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0gii1zma10"},{"Name":"integrity","Value":"sha256-4Bq2oJwr0aZGZqltn\u002BOaSpodsyX6EsS/73ArokPOCLg="},{"Name":"label","Value":"_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-yeti.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"237567"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224Bq2oJwr0aZGZqltn\u002BOaSpodsyX6EsS/73ArokPOCLg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:45:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-yeti.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-yeti.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4Bq2oJwr0aZGZqltn\u002BOaSpodsyX6EsS/73ArokPOCLg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"237567"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224Bq2oJwr0aZGZqltn\u002BOaSpodsyX6EsS/73ArokPOCLg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:45:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>

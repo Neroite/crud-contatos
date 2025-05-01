@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e/MxuVULjci5UpiDcZdLqnaEl1DPzGH0sVMj3sCT7Mc=",
+  "Hash": "l3F3d3q2TZgyzkS6x61ZhNbuz6knZkYNMHTZ7vMbEPA=",
   "Source": "Lopobia",
   "BasePath": "_content/Lopobia",
   "Mode": "Default",
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e8c0jjsnyh",
-      "Integrity": "7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=",
+      "Fingerprint": "0pw43d9y33",
+      "Integrity": "fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min-yeti#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0gii1zma10",
+      "Integrity": "4Bq2oJwr0aZGZqltn+OaSpodsyX6EsS/73ArokPOCLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css"
     },
     {
       "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
@@ -1897,7 +1918,7 @@
       ]
     },
     {
-      "Route": "js/site.e8c0jjsnyh.js",
+      "Route": "js/site.0pw43d9y33.js",
       "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1907,7 +1928,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "386"
+          "Value": "2682"
         },
         {
           "Name": "Content-Type",
@@ -1915,11 +1936,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\""
+          "Value": "\"fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 15:21:34 GMT"
+          "Value": "Thu, 01 May 2025 17:29:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1929,7 +1950,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8c0jjsnyh"
+          "Value": "0pw43d9y33"
         },
         {
           "Name": "label",
@@ -1937,7 +1958,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="
+          "Value": "sha256-fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U="
         }
       ]
     },
@@ -1952,7 +1973,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "386"
+          "Value": "2682"
         },
         {
           "Name": "Content-Type",
@@ -1960,11 +1981,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8=\""
+          "Value": "\"fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 15:21:34 GMT"
+          "Value": "Thu, 01 May 2025 17:29:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1974,7 +1995,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7tyk7z7NijRkxJvsX2N/TZZoKzioDKt/19EpxqT3jp8="
+          "Value": "sha256-fDr6dBBl7RqxRyuIMtzpi3aS3TA5HMFottWzZJwK/3U="
         }
       ]
     },
@@ -2258,6 +2279,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-yeti.0gii1zma10.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Bq2oJwr0aZGZqltn+OaSpodsyX6EsS/73ArokPOCLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0gii1zma10"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min-yeti.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Bq2oJwr0aZGZqltn+OaSpodsyX6EsS/73ArokPOCLg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-yeti.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Bq2oJwr0aZGZqltn+OaSpodsyX6EsS/73ArokPOCLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Bq2oJwr0aZGZqltn+OaSpodsyX6EsS/73ArokPOCLg="
         }
       ]
     },
