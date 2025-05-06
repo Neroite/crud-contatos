@@ -1,0 +1,53 @@
+﻿@model LoginModel
+@{
+    Layout = "_LayoutDeslogado";
+    ViewData["Title"] = "Login";
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @TempData["MensagemErro"]
+        <button type="button" class="btn-close" aria-label="Close"></button>
+    </div>
+}
+
+<form asp-controller="Login" asp-action="Entrar" method="post">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card" style="border-radius: 1rem;">
+                    <div class="card-body p-3 text-center">
+
+                        <div class="mb-md-5 mt-md-4 pb-5">
+
+                            <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+
+                            <div class="form-outline form-white mb-4">
+                                <input asp-for="Login" type="text" class="form-control form-control-lg" id="login" />
+                                @Html.ValidationMessageFor(x => x.Login)
+                                <br>
+                            </div>
+
+                            <div class="form-outline form-white mb-4">
+                                <h2 class="fw-bold mb-2 text-uppercase">Senha</h2>
+                                <input asp-for="Senha" type="text" type="password" id="typePasswordX" class="form-control form-control-lg" />
+                                @Html.ValidationMessageFor(x => x.Senha)
+                                <br>
+                            </div>
+
+                            <p class="small mb-5 pb-lg-4"><a href="#!">Esqueceu a senha?</a></p>
+
+                            <button class="btn btn-outline-dark btn-lg px-5" type="submit">Entrar</button>
+                        </div>
+                        <div>
+                            <p class="mb-0">
+                                Não possui uma conta? <a href="#!" class="fw-bold">Criar Conta</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

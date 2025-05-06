@@ -4,6 +4,7 @@ namespace Lopobia.Repositorio
 {
     public interface IUsuarioRepositorio
     {
+        UsuarioModel BuscarPorLogin(string login);
         UsuarioModel Criar(UsuarioModel usuario);
         List<UsuarioModel> BuscarTodos();
         UsuarioModel BuscarPorId(int id);

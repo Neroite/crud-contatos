@@ -2,23 +2,7 @@
   "Files": [
     {
       "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Lopobia.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Lopobia.ep5didu5zu.bundle.scp.css"
-    },
-    {
-      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.css",
-      "PackagePath": "staticwebassets\\DataTables\\datatables.css"
-    },
-    {
-      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.js",
-      "PackagePath": "staticwebassets\\DataTables\\datatables.js"
-    },
-    {
-      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.css",
-      "PackagePath": "staticwebassets\\DataTables\\datatables.min.css"
-    },
-    {
-      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\DataTables\\datatables.min.js",
-      "PackagePath": "staticwebassets\\DataTables\\datatables.min.js"
+      "PackagePath": "staticwebassets\\Lopobia.t6nwgca0ek.bundle.scp.css"
     },
     {
       "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\css\\site.css",
