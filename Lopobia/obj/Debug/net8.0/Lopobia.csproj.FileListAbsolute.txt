@@ -108,3 +108,4 @@ G:\source\repos\Lopobia\Lopobia\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.
 G:\source\repos\Lopobia\Lopobia\obj\Debug\net8.0\Lopobia.csproj.AssemblyReference.cache
 G:\source\repos\Lopobia\Lopobia\obj\Debug\net8.0\Lopobia.csproj.Up2Date
 G:\source\repos\Lopobia\Lopobia\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+G:\source\repos\Lopobia\Lopobia\bin\Debug\net8.0\Newtonsoft.Json.dll
