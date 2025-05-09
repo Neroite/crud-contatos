@@ -1,9 +1,11 @@
 ﻿using Lopobia.Models;
 using Lopobia.Repositorio;
 using Microsoft.AspNetCore.Mvc;
+using Lopobia.Filters;
 
 namespace Lopobia.Controllers
 {
+    [PaginaParaUsuarioLogado]
     public class ContatoController : Controller
     {
 

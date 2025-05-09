@@ -1,9 +1,11 @@
-﻿using Lopobia.Models;
+﻿using Lopobia.Filters;
+using Lopobia.Models;
 using Lopobia.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lopobia.Controllers
 {
+    [PaginaRestriraSomenteAdmin]
     public class UsuarioController : Controller
     {
 
