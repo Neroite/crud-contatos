@@ -29,5 +29,6 @@ namespace Lopobia.Models
         {
             return Senha == senha;
         }
+
     }
 }

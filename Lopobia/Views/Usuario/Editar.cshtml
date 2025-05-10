@@ -17,17 +17,17 @@
 
 		<div class="mb-3">
 			<label for="Input1" class="form-label">Nome</label>
-			<input asp-for="Nome" type="text" class="form-control" placeholder="Koon Aguero">
+			<input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome do usuário">
 			@Html.ValidationMessageFor(x => x.Nome)
 		</div>
 		<div class="mb-3">
 			<label for="Input2" class="form-label">Email</label>
-			<input asp-for="Email" type="text" class="form-control" placeholder="name@example.com">
+			<input asp-for="Email" type="text" class="form-control" placeholder="Digite o email do usuário">
 			@Html.ValidationMessageFor(x => x.Email)
 		</div>
 		<div class="mb-3">
 			<label for="Input3" class="form-label">Login</label>
-			<input asp-for="Login" type="text" class="form-control" placeholder="Usuario1">
+			<input asp-for="Login" type="text" class="form-control" placeholder="Digite o login do usuário">
 			@Html.ValidationMessageFor(x => x.Login)
 		</div>
 		<div class="mb-3">
@@ -41,7 +41,7 @@
 		</div>
 		<div class="mb-3">
 			<label for="Input5" class="form-label">Senha</label>
-			<input asp-for="Senha" type="text" class="form-control" placeholder="123">
+			<input asp-for="Senha" type="text" class="form-control" placeholder="Digite o celular do usuário">
 			@Html.ValidationMessageFor(x => x.Senha)
 		</div>
 		<br>
