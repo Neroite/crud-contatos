@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZIiPBnVExpUewGl0WSkItgTmfof2pvxidwWO4qTBLak=",
+  "Hash": "2zF3QltazRkMiWVS632fvqftnEk3DMpM9PhhL6AvcP4=",
   "Source": "Lopobia",
   "BasePath": "_content/Lopobia",
   "Mode": "Default",
@@ -204,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css",
+      "SourceId": "Lopobia",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\",
+      "BasePath": "_content/Lopobia",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min-flaty#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yez77zr8ir",
+      "Integrity": "CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css"
     },
     {
       "Identity": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css",
@@ -1867,6 +1888,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-flaty.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 01:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-flaty.yez77zr8ir.css",
+      "AssetFile": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 01:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yez77zr8ir"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min-flaty.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
         }
       ]
     },

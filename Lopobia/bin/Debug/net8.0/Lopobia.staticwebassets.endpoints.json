@@ -2500,6 +2500,88 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-flaty.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.min-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 01:14:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min-flaty.yez77zr8ir.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.min-flaty.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 01:14:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yez77zr8ir"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min-flaty.css"
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/css/bootstrap.min-yeti.0gii1zma10.css",
       "AssetFile": "lib/bootstrap/dist/css/bootstrap.min-yeti.css",
       "Selectors": [],

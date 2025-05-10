@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+      "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min-flaty.css"
+    },
+    {
       "Id": "G:\\source\\repos\\Lopobia\\Lopobia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min-yeti.css"
     },

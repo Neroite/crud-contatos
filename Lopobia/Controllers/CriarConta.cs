@@ -28,12 +28,11 @@ namespace Lopobia.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    TempData["MensagemSucesso"] = "Usuario cadastrado com sucesso!";
                     _usuarioRepositorio.Criar(usuario);
                     return RedirectToAction("Index","Login");
                 }
 
-                return View(usuario);
+                return View("Index", usuario);
                 // ou return View("Criar",usuario); caso a view não tenha o mesmo nome que o método
             }
             catch (Exception erro)

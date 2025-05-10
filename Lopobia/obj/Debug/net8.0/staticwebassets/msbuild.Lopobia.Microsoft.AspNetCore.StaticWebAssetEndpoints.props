@@ -342,6 +342,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"536547"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 00:30:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-flaty.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-flaty.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9\u002Bu0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"233172"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9\u002Bu0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 01:14:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-flaty.yez77zr8ir.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-flaty.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yez77zr8ir"},{"Name":"integrity","Value":"sha256-CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9\u002Bu0="},{"Name":"label","Value":"_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-flaty.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"233172"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9\u002Bu0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 01:14:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lopobia/lib/bootstrap/dist/css/bootstrap.min-yeti.0gii1zma10.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-yeti.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
