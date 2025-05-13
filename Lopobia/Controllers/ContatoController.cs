@@ -2,6 +2,7 @@
 using Lopobia.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using Lopobia.Filters;
+using Lopobia.Helper;
 
 namespace Lopobia.Controllers
 {
@@ -10,15 +11,18 @@ namespace Lopobia.Controllers
     {
 
         private readonly IContatoRepositorio _contatoRepositorio;
+        private readonly ISessao _sessao;
 
-        public ContatoController(IContatoRepositorio contatoRepositorio)
+        public ContatoController(IContatoRepositorio contatoRepositorio, ISessao sessao)
         {
             _contatoRepositorio = contatoRepositorio;
+            _sessao = sessao;
         }
 
         public IActionResult Index()
         {
-            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            UsuarioModel usuarioLogado = _sessao.BuscarSessaoUsuario();
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos(usuarioLogado.Id);
             return View(contatos);
         }
         public IActionResult Adicionar()
@@ -44,7 +48,9 @@ namespace Lopobia.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    TempData["MensagemSucesso"] = "Contato realizado com sucesso!";
+                    UsuarioModel usuarioLogado = _sessao.BuscarSessaoUsuario();
+                    contato.UsuarioId = usuarioLogado.Id;
+
                     _contatoRepositorio.Criar(contato);
                     return RedirectToAction("Index");
                 }
@@ -68,8 +74,12 @@ namespace Lopobia.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    TempData["MensagemSucesso"] = "Contato atualizado com sucesso!";
+
+                    UsuarioModel usuarioLogado = _sessao.BuscarSessaoUsuario();
+                    contato.UsuarioId = usuarioLogado.Id;
+
                     _contatoRepositorio.Editar(contato);
+                    TempData["MensagemSucesso"] = "Contato atualizado com sucesso!";
                     return RedirectToAction("Index");
                 }
 

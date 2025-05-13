@@ -552,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yez77zr8ir</Fingerprint>
-      <Integrity>CjKEwLdSvt0bg/35KdHH/nNkIYSUf2IYt/WPJiA9+u0=</Integrity>
+      <Fingerprint>mo8ac88fsz</Fingerprint>
+      <Integrity>djb2zlniSwtl5Rb7yItOOq5vk1LO7TNl9mSvBHkf1dM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min-flaty.css'))</OriginalItemSpec>

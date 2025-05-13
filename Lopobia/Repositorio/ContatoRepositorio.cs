@@ -17,9 +17,9 @@ namespace Lopobia.Repositorio
             return _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ContatoModel> BuscarTodos()
+        public List<ContatoModel> BuscarTodos(int usuarioID)
         {
-            return _bancoContext.Contatos.ToList();
+            return _bancoContext.Contatos.Where(x => x.UsuarioId == usuarioID).ToList();
         }
 
         public ContatoModel Criar(ContatoModel contato)

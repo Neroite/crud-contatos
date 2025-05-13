@@ -16,5 +16,8 @@ namespace Lopobia.Models
         [Required(ErrorMessage = "Digite o Celular")]
         [Phone(ErrorMessage = "Digite um Celular Válido")]
         public string Celular { get; set; }
+
+        public int? UsuarioId { get; set; }
+        public UsuarioModel? Usuario { get; set; }
     }
 }
