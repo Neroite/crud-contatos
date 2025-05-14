@@ -1,5 +1,6 @@
 ﻿using Lopobia.Data;
 using Lopobia.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lopobia.Repositorio
 {
@@ -24,7 +25,7 @@ namespace Lopobia.Repositorio
 
         public List<UsuarioModel> BuscarTodos()
         {
-            return _bancoContext.Usuarios.ToList();
+            return _bancoContext.Usuarios.Include(x => x.Contatos).ToList();
         }
 
         public UsuarioModel Criar(UsuarioModel usuario)

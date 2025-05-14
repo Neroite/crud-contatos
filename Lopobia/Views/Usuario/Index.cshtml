@@ -40,6 +40,7 @@
 				<th scope="col">Login</th>
 				<th scope="col">Email</th>
 				<th scope="col">Perfil</th>
+				<th scope="col">Total de contatos</th>
 				<th scope="col">DataCadastro</th>
 				<th scope="col"></th>
 			</tr>
@@ -55,6 +56,11 @@
 						<td>@usuario.Login</td>
 						<td>@usuario.Email</td>
 						<td>@(usuario.Perfil == Lopobia.Enum.PerfilEnum.Admin ? "Admin" : "Padrão")</td>
+						<td>
+							<a href="javascript:" usuario-id="@usuario.Id" class="btn btn-sm btn-success">
+								@(usuario.Contatos != null && usuario.Contatos.Any() ? usuario.Contatos.Count() : 0)
+							</a>
+						</td>
 						<td>@usuario.DataCadastro</td>
 						<td>
 							<div class="btn-group" role="group" aria-label="Basic example">

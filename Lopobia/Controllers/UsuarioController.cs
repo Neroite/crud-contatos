@@ -56,7 +56,7 @@ namespace Lopobia.Controllers
                     return RedirectToAction("Index");
                 }
 
-                return View(usuario);
+                return View("Adicionar");
                 // ou return View("Criar",usuario); caso a view não tenha o mesmo nome que o método
             }
             catch (Exception erro)
